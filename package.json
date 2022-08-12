@@ -1,0 +1,26 @@
+{
+  "name": "e-trackerdb",
+  "version": "1.0.0",
+  "description": "An easy to use Employee Tracker Database that runs in the command line.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DronetDevDesign/e-TrackerDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DronetDevDesign/e-TrackerDB/issues"
+  },
+  "homepage": "https://github.com/DronetDevDesign/e-TrackerDB#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.18.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
