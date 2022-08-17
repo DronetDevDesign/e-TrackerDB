@@ -5,7 +5,7 @@
 e-TrackerDB is an employee data command line app. The user types "npm start" to access the prompts. The prompts take the user through commands that help the user view, change and add data to the employee database. It's extremely easy to use. Once the user has completed the task, the user can then quit the app.
 
 ## Video Demo:
-## https://watch.screencastify.com/v/GHd83auroiZtuTcq1V0J
+## https://watch.screencastify.com/v/P7trEiriK2ubirOGYcYR
 
 <br>
 
@@ -18,7 +18,7 @@ e-TrackerDB is an employee data command line app. The user types "npm start" to 
 
 <br>
 <div align="left">
-    <img src="./assets/team-dash-screenshot.jpg" width="800px" /> 
+    <img src="./assets/e-trackerdb-screenshot.jpg" width="800px" /> 
 </div>
 <br>
 
