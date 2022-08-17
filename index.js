@@ -100,7 +100,7 @@ const updateEmployeeRole = () => {
           }
           ])
             .then((answers) => {
-              connection.query('UPDATE employees SET role_id = ? WHERE id = ?', idValueForEmployee, answers.options, (error, answers) => {
+              connection.query('UPDATE employees SET role_id = ? WHERE id = ?', [idValueForEmployee, answers.options], (error, answers) => {
                 if (error) console.error(error);
                 console.log("You successfully added an employee role!");
                 mainMenu();
