@@ -1,59 +1,64 @@
 # e-TrackerDB
 ## An easy to use Employee Tracker Database that runs in the command line.
 
+## Purpose:
+e-TrackerDB is an employee data command line app. The user types "npm start" to access the prompts. The prompts take the user through commands that help the user view, change and add data to the employee database. It's extremely easy to use. Once the user has completed the task, the user can then quit the app.
+
+## Video Demo:
+## https://watch.screencastify.com/v/GHd83auroiZtuTcq1V0J
+
+<br>
+
+## **Table of contents:**
+  * [Installation](#installation)
+  * [Exit](#exit)
+  * [Usage](#usage)
+  * [Contribute](#contribute)
+  * [Questions](#questions)
+
 <br>
 <div align="left">
-    <img src="./assets/12-sql-homework-demo-01.png" width="800px" /> 
+    <img src="./assets/team-dash-screenshot.jpg" width="800px" /> 
 </div>
 <br>
 
-## You might also want to make your queries asynchronous. MySQL2 exposes a .promise() function on Connections to upgrade an existing non-Promise connection to use Promises. To learn more and make your queries asynchronous, refer to the npm documentation on MySQL2 (Links to an external site.).
+<br>
+
+## This Command Line App Created Using:
+* JavaScript
+* NodeJS
+* MySQL/MySQL2
+* Inquirer
+* console.table
+* Jest 
+* GitHub
 
 <br>
 
-## User Story:
+## Installation:
+  ### *To install use this command in the the terminal:*
+  ### npm start
 
-- AS A business owner
+<br>
 
-- I WANT to be able to view and manage the departments, roles, and employees in my company
+## Exit:
+  ### *To exit the app press these keys on your keyboard:*
+  ### "ctrl" and "c"
 
-- SO THAT I can organize and plan my business
+<br>
 
-<br />
+## Usage:
+  ### The respository can be cloned and placed in a folder remotely.
 
-## Acceptance Criteria:
+<br>
 
-- GIVEN a command-line application that accepts user input
+## Contribute:
+### Please contact me regarding contributing to this repository. All additions must be approved.
 
-- WHEN I start the application
+<br>
 
-- THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
-
-- WHEN I choose to view all departments
-
-- THEN I am presented with a formatted table showing department names and department ids
-
-- WHEN I choose to view all roles
-
-
-- THEN I am presented with the job title, role id, the department that role belongs to, and the salary for that role
-
-- WHEN I choose to view all employees
-
-- THEN I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to
-
-- WHEN I choose to add a department
-
-- THEN I am prompted to enter the name of the department and that department is added to the database
-
-- WHEN I choose to add a role
-
-- THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database
-
-- WHEN I choose to add an employee
-
-- THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
-
-- WHEN I choose to update an employee role
-
-- THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+## Questions?
+### *If you have any questions here's how to contact me:*
+* Username: DronetDevDesign
+* Repository: https://github.com/DronetDevDesign
+* Email: ron@DronetDevDesign.com
